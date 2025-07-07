@@ -24,7 +24,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Welcome to <span className="text-teal-500">TripTrail</span>
+          Welcome to <span className="text-teal-500">TravelTide</span>
         </motion.h1>
         <motion.p
           className="text-white mt-4 text-lg relative z-10"
@@ -49,7 +49,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            About <span className="text-teal-500">TripTrail</span>
+            About <span className="text-teal-500">TravelTide</span>
           </motion.h2>
           <motion.p
             className="text-lg"
@@ -57,7 +57,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            TripTrail is a leading travel agency offering personalized booking
+            TravelTide is a leading travel agency offering personalized booking
             experiences to help travelers plan their perfect vacation. With a
             wide range of tours, activities, and accommodations, we make your
             travel dreams come true.
@@ -224,7 +224,7 @@ const About = () => {
               {
                 icon: <Mail className="w-8 h-8 mb-4" />,
                 title: "Email",
-                content: "contact@TripTrail.com",
+                content: "contact@TravelTide.com",
               },
               {
                 icon: <Phone className="w-8 h-8 mb-4" />,
@@ -253,7 +253,7 @@ const About = () => {
           </div>
           <div className="mt-12 text-center">
             <a
-              href="mailto:contact@triptrail.com"
+              href="mailto:contact@TravelTide.com"
               className="inline-block px-8 py-3 bg-white text-teal-500 rounded-full font-semibold hover:bg-teal-100 transition duration-300"
             >
               Contact Us

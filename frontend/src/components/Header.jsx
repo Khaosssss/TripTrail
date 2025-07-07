@@ -17,7 +17,7 @@ const Header = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 1, ease: "easeOut" }}
       >
-        Welcome to <span className="text-teal-500">TripGo</span>
+        Welcome to <span className="text-teal-500">TravelTide</span>
       </motion.h1>
 
       <motion.p

@@ -67,7 +67,7 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-[-70px] text-center mb-10">
-        Welcome to <span className="text-blue-500">TripGo</span>
+        Welcome to <span className="text-blue-500">TravelTide</span>
       </h1>
       <div className="bg-white/20 p-8 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-3xl font-semibold text-center text-black">
