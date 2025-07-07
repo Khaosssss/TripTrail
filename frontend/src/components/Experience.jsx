@@ -17,7 +17,7 @@ const Experience = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8 }}
       >
-        Experience our <span className="text-blue-500">TripGo</span>
+        Experience our <span className="text-teal-500">TripGo</span>
       </motion.h1>
       <motion.p
         className="text-lg text-gray-600 mb-12 text-center max-w-2xl mx-auto"
@@ -36,7 +36,7 @@ const Experience = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <TrendingUp className="text-blue-500 mb-4 text-4xl" />
+          <TrendingUp className="text-teal-500 mb-4 text-4xl" />
           <span className="text-2xl font-semibold text-gray-800">12k+</span>
           <h6 className="text-lg text-gray-600">Successful Trips</h6>
         </motion.div>

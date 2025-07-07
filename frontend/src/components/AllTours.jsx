@@ -17,7 +17,7 @@ const AllTours = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8 }}
       >
-        Our Featured <span className="text-blue-500">Tours</span>
+        Our Featured <span className="text-teal-500">Tours</span>
       </motion.h1>
       <motion.p
         className="text-lg text-gray-600 mb-12 text-center max-w-2xl"

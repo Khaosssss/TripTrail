@@ -27,7 +27,7 @@ const TourCard = ({ tour }) => {
       <div className="relative">
         <img src={photo} alt="tourimg" className="w-full h-64 object-cover" />
         {featured && (
-          <span className="absolute top-4 left-4 bg-blue-500 text-white py-1 px-3 rounded-md text-sm font-semibold">
+          <span className="absolute top-4 left-4 bg-teal-500 text-white py-1 px-3 rounded-md text-sm font-semibold">
             Featured
           </span>
         )}
@@ -47,7 +47,7 @@ const TourCard = ({ tour }) => {
           <Link
             to={`/tours/${id}`}
             onClick={() => scrollTo(0, 0)}
-            className="text-blue-600 hover:underline"
+            className="text-teal-600 hover:underline"
           >
             {title}
           </Link>
@@ -58,7 +58,7 @@ const TourCard = ({ tour }) => {
             ₹{price} <span className="text-sm text-gray-500">/person</span>
           </h5>
           <motion.button
-            className="bg-gradient-to-b from-sky-500 to-blue-500 text-white hover:from-sky-800 hover:to-blue-700 py-2 px-4 rounded-md transition-colors"
+            className="bg-gradient-to-b from-sky-500 to-teal-500 text-white hover:from-sky-800 hover:to-teal-700 py-2 px-4 rounded-md transition-colors"
             onClick={() => scrollTo(0, 0)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}

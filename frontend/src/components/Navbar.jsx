@@ -54,8 +54,8 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className={`hover:text-blue-500 ${
-                location.pathname === "/" ? "text-blue-500 font-bold" : ""
+              className={`hover:text-teal-500 ${
+                location.pathname === "/" ? "text-teal-500 font-bold" : ""
               }`}
             >
               Home
@@ -64,8 +64,8 @@ const Navbar = () => {
           <li>
             <Link
               to="/about"
-              className={`hover:text-blue-500 ${
-                location.pathname === "/about" ? "text-blue-500 font-bold" : ""
+              className={`hover:text-teal-500 ${
+                location.pathname === "/about" ? "text-teal-500 font-bold" : ""
               }`}
             >
               About
@@ -74,8 +74,8 @@ const Navbar = () => {
           <li>
             <Link
               to="/tours"
-              className={`hover:text-blue-500 ${
-                location.pathname === "/tours" ? "text-blue-500 font-bold" : ""
+              className={`hover:text-teal-500 ${
+                location.pathname === "/tours" ? "text-teal-500 font-bold" : ""
               }`}
             >
               Tours
@@ -93,14 +93,14 @@ const Navbar = () => {
             </div>
             <button
               onClick={logout}
-              className="px-4 py-2 bg-gradient-to-b from-sky-500 to-blue-500 text-white rounded hover:from-sky-800 hover:to-blue-700 "
+              className="px-4 py-2 bg-gradient-to-b from-sky-500 to-teal-500 text-white rounded hover:from-sky-800 hover:to-teal-700 "
             >
               Logout
             </button>
           </div>
         ) : (
           <Link to="/login">
-            <button className="px-4 py-2 bg-gradient-to-b from-sky-500 to-blue-500 text-white rounded hover:from-sky-800 hover:to-blue-700 ">
+            <button className="px-4 py-2 bg-gradient-to-b from-sky-500 to-teal-500 text-white rounded hover:from-sky-800 hover:to-teal-700 ">
               Login
             </button>
           </Link>
@@ -114,8 +114,8 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className={`hover:text-blue-500 ${
-                  location.pathname === "/" ? "text-blue-500 font-bold" : ""
+                className={`hover:text-teal-500 ${
+                  location.pathname === "/" ? "text-teal-500 font-bold" : ""
                 }`}
                 onClick={() => setMenuOpen(false)}
               >
@@ -125,9 +125,9 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
-                className={`hover:text-blue-500 ${
+                className={`hover:text-teal-500 ${
                   location.pathname === "/about"
-                    ? "text-blue-500 font-bold"
+                    ? "text-teal-500 font-bold"
                     : ""
                 }`}
                 onClick={() => setMenuOpen(false)}
@@ -138,9 +138,9 @@ const Navbar = () => {
             <li>
               <Link
                 to="/tours"
-                className={`hover:text-blue-500 ${
+                className={`hover:text-teal-500 ${
                   location.pathname === "/tours"
-                    ? "text-blue-500 font-bold"
+                    ? "text-teal-500 font-bold"
                     : ""
                 }`}
                 onClick={() => scrollTo(0, 0) && setMenuOpen(false)}
@@ -157,7 +157,7 @@ const Navbar = () => {
                       logout();
                       setMenuOpen(false);
                     }}
-                    className="px-4 py-2 bg-gradient-to-b from-sky-500 to-blue-500 text-white rounded hover:from-sky-800 hover:to-blue-700"
+                    className="px-4 py-2 bg-gradient-to-b from-sky-500 to-teal-500 text-white rounded hover:from-sky-800 hover:to-teal-700"
                   >
                     Logout
                   </button>
@@ -168,7 +168,7 @@ const Navbar = () => {
                 <Link to="/login">
                   <button
                     onClick={() => setMenuOpen(false)}
-                    className="px-4 py-2 bg-gradient-to-b from-sky-500 to-blue-500 text-white rounded hover:from-sky-800 hover:to-blue-700"
+                    className="px-4 py-2 bg-gradient-to-b from-sky-500 to-teal-500 text-white rounded hover:from-sky-800 hover:to-teal-700"
                   >
                     Login
                   </button>

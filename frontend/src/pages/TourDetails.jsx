@@ -48,7 +48,7 @@ const TourDetails = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-sky-50 via-blue-50 to-violet-50 py-8">
+    <div className="min-h-screen bg-gradient-to-r from-sky-50 via-teal-50 to-violet-50 py-8">
       <div className="max-w-7xl mx-auto p-6 sm:p-8">
         {/* Tour Image */}
         <div className="mb-8">
@@ -73,8 +73,8 @@ const TourDetails = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Price Section */}
           <div className="flex flex-col items-center bg-white/20 p-6 border rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
-            <h3 className="text-xl font-semibold text-blue-600 flex items-center">
-              <DollarSign className="mr-2 text-blue-600" />
+            <h3 className="text-xl font-semibold text-teal-600 flex items-center">
+              <DollarSign className="mr-2 text-teal-600" />
               Price
             </h3>
             <p className="text-2xl text-gray-800 mt-3">₹{price}/person</p>
@@ -82,8 +82,8 @@ const TourDetails = () => {
 
           {/* Location Section */}
           <div className="flex flex-col items-center bg-white/20 p-6 border rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
-            <h3 className="text-xl font-semibold text-blue-600 flex items-center">
-              <MapPin className="mr-2 text-blue-600" />
+            <h3 className="text-xl font-semibold text-teal-600 flex items-center">
+              <MapPin className="mr-2 text-teal-600" />
               Location
             </h3>
             <p className="text-2xl text-gray-800 mt-3">{city}</p>
@@ -92,8 +92,8 @@ const TourDetails = () => {
 
           {/* Group Size Section */}
           <div className="flex flex-col items-center bg-white/20 p-6 border rounded-xl shadow-lg hover:scale-105 transform transition duration-300">
-            <h3 className="text-xl font-semibold text-blue-600 flex items-center">
-              <Users className="mr-2 text-blue-600" />
+            <h3 className="text-xl font-semibold text-teal-600 flex items-center">
+              <Users className="mr-2 text-teal-600" />
               Group Size
             </h3>
             <p className="text-2xl text-gray-800 mt-3">
@@ -105,13 +105,13 @@ const TourDetails = () => {
         {/* Available Dates Select Dropdown */}
         <div className="mt-12">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-            <Calendar className="inline-block mr-2 text-blue-600" />
+            <Calendar className="inline-block mr-2 text-teal-600" />
             Choose Available Date
           </h3>
           <select
             value={selectedDate}
             onChange={handleDateChange}
-            className="w-full p-3 border border-gray-300 rounded-xl bg-white/20 shadow-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+            className="w-full p-3 border border-gray-300 rounded-xl bg-white/20 shadow-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-200"
           >
             {availableDates.map((date, index) => (
               <option key={index} value={date}>
@@ -139,7 +139,7 @@ const TourDetails = () => {
                 navigate(`/booking`, { state: { tour } });
               }
             }}
-            className="bg-gradient-to-b from-sky-500 to-blue-500 hover:from-sky-800 hover:to-blue-700 px-6 py-3 text-white text-lg font-semibold rounded-full transition duration-300"
+            className="bg-gradient-to-b from-sky-500 to-teal-500 hover:from-sky-800 hover:to-teal-700 px-6 py-3 text-white text-lg font-semibold rounded-full transition duration-300"
           >
             Book This Tour
           </button>

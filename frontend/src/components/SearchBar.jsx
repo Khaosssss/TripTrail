@@ -12,7 +12,7 @@ const SearchBar = () => {
       viewport={{ once: true }}
     >
       <h1 className="text-3xl sm:text-4xl font-semibold mb-2 text-center">
-        Find Your Perfect <span className="text-blue-500">Destination</span>
+        Find Your Perfect <span className="text-teal-500">Destination</span>
       </h1>
       <p className="text-center text-lg text-gray-600 mb-8">
         Discover Destinations Based on Your Interests
@@ -41,7 +41,7 @@ const SearchBar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: index * 0.1, duration: 0.5 }}
           >
-            <item.icon className="text-blue-500 w-6 h-6" />
+            <item.icon className="text-teal-500 w-6 h-6" />
             <div>
               <h2 className="text-xl font-medium">{item.title}</h2>
               <p className="mt-2 text-gray-500">{item.description}</p>

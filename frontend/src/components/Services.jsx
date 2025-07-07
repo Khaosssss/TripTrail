@@ -17,7 +17,7 @@ const Services = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8 }}
       >
-        What we <span className="text-blue-500">Serve</span>
+        What we <span className="text-teal-500">Serve</span>
       </motion.h1>
       <motion.p
         className="text-lg text-gray-600 mb-12 text-center"
