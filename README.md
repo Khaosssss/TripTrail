@@ -1,10 +1,10 @@
-# TripGo - Travel Agency Booking System
+# TravelTide - Travel Agency Booking System
 
-Welcome to the TripGo repository! This project is a Travel Agency Booking System designed to help customers easily explore and book exciting travel packages. It provides a user-friendly interface for customers to view available packages, book their trips, and receive basic invoices for their bookings.
+Welcome to the TravelTide repository! This project is a Travel Agency Booking System designed to help customers easily explore and book exciting travel packages. It provides a user-friendly interface for customers to view available packages, book their trips, and receive basic invoices for their bookings.
 
 ## Project Overview
 
-TripGo offers an easy-to-use platform where customers can:
+TravelTide offers an easy-to-use platform where customers can:
 - Browse through available tour packages.
 - Book a tour package by providing necessary details.
 - Receive a basic invoice after booking, summarizing customer information and booking details.
@@ -57,11 +57,11 @@ Ensure that you have the following installed:
 ### Frontend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aditya1or0/TripGo.git
+   git clone https://github.com/Aditya1or0/TravelTide.git
    ```
 2. Navigate to the frontend directory:
    ```bash
-   cd TripGo/frontend
+   cd TravelTide/frontend
    ```
 3. Install the necessary dependencies:
    ```bash
@@ -75,7 +75,7 @@ Ensure that you have the following installed:
 ### Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd TripGo/backend
+   cd TravelTide/backend
    ```
 2. Install the necessary dependencies:
    ```bash
@@ -104,7 +104,7 @@ Ensure your MongoDB server is running and properly connected to the backend.
 
 ## Contributing
 
-We welcome contributions to enhance the functionality of TripGo! If you'd like to contribute:
+We welcome contributions to enhance the functionality of TravelTide! If you'd like to contribute:
 
 1. Fork the repository.
 2. Create a new branch 
