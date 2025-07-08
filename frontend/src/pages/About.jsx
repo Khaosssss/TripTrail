@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import Uniqueloc from '../assets/Uniqueloc.png';
 import service from '../assets/service.png';
 import affordable from '../assets/affordable.png';
+import rahulImage from "../assets/rahul_mern.jpg";
+import abhiramImage from "../assets/abhiram_mern.jpg";
+import nayantaraImage from "../assets/nayantara_mern.jpg";
+import kousikImage from "../assets/kousik_mern.jpg";
 
 
 const fadeIn = {
@@ -175,24 +179,24 @@ const About = () => {
           <div className="flex flex-wrap justify-center gap-8">
             {[
               {
-                img: "https://img.freepik.com/free-photo/smiling-young-travel-agent-holding-travel-book-while-working-office_1150-18351.jpg?w=1380&t=st=1689822301~exp=1689822901~hmac=fd79c254f2a30fc1ad4fa28cc5e225e99f4232f9db184e00d5e20b27ff51d426",
+                img: rahulImage,
                 name: "Rahul Seju",
                 title: "Database Expert",
               },
               {
-                img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
+                img: abhiramImage,
                 name: "Abhiram Jayasankar",
                 title: "Tours Frontend Developer",
               },
               {
-                img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
+                img: nayantaraImage,
                 name: "Nayantara Nair",
                 title: "Layout Specialist",
               },
               {
-                img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
+                img: kousikImage,
                 name: "Koushik",
-                title: "Backend API extraordinaire",
+                title: "Backend API Extraordinaire",
               },
             ].map((item, index) => (
               <motion.div
@@ -206,6 +210,7 @@ const About = () => {
                   className="rounded-full mb-4"
                   src={item.img}
                   alt={item.name}
+                  style={{ width: '600px', height: '300px', objectFit: 'cover' }}
                 />
                 <h3 className="text-xl font-semibold">{item.name}</h3>
                 <p>{item.title}</p>
