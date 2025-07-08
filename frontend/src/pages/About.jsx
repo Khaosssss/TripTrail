@@ -1,6 +1,10 @@
 import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import Uniqueloc from '../assets/Uniqueloc.png';
+import service from '../assets/service.png';
+import affordable from '../assets/affordable.png';
+
 
 const fadeIn = {
   hidden: { opacity: 0 },
@@ -112,20 +116,21 @@ const About = () => {
           <div className="flex flex-wrap justify-center gap-6">
             {[
               {
-                img: "https://img.freepik.com/free-photo/young-woman-sitting-coffee-table-with-laptop-home-working-on-projects_1150-18219.jpg?w=1380&t=st=1689821537~exp=1689822137~hmac=ea537998d858e2d68fa85c2165e8ac9c07eab70f89db67d943e48a3e84665e13",
+                img: service,
                 title: "Professional Service",
                 desc: "We offer expert assistance and personalized guidance to ensure your trip is perfectly planned.",
               },
-              {
-                img: "https://img.freepik.com/free-photo/exotic-sunset-beach-ideal-relaxing-place_1150-18313.jpg?w=1380&t=st=1689821972~exp=1689822572~hmac=e4d945a3c49b09012d44a39b1b4b3a22cc2b6f700f9735360b171a320c2f29d5",
-                title: "Unique Destinations",
-                desc: "We curate exclusive travel packages to unique destinations across the world, ensuring a one-of-a-kind experience.",
-              },
-              {
-                img: "https://img.freepik.com/free-photo/tourist-enjoying-luxury-resort-terrace-with-beautiful-view_1150-18335.jpg?w=1380&t=st=1689822102~exp=1689822702~hmac=573d74584f5e647b90fcbd2e91c8a7f313e0b3f438742970de8763fc7be2f215",
+               {
+                img: affordable,
                 title: "Affordable Prices",
                 desc: "We ensure our customers get the best value for their money, offering competitive rates for every trip.",
               },
+              {
+                img : Uniqueloc,
+                title: "Unique Destinations",
+                desc: "We curate exclusive travel packages to unique destinations across the world, ensuring a one-of-a-kind experience.",
+              },
+             
             ].map((item, index) => (
               <motion.div
                 key={index}

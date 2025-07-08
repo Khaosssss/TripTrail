@@ -39,7 +39,7 @@ const Header = () => {
         experience.
       </motion.p>
 
-      <motion.img
+       <motion.img
         src={assets.headerimg}
         alt="earth"
         className="w-[200px] sm:w-[300px] lg:w-[450px] mt-10"
