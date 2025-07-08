@@ -181,22 +181,22 @@ const About = () => {
               {
                 img: rahulImage,
                 name: "Rahul Seju",
-                title: "Database Expert",
+                title: "Database Engineer",
               },
               {
                 img: abhiramImage,
                 name: "Abhiram Jayasankar",
-                title: "Tours Frontend Developer",
+                title: "Frontend Developer",
               },
               {
                 img: nayantaraImage,
                 name: "Nayantara Nair",
-                title: "Layout Specialist",
+                title: "Frontend Developer",
               },
               {
                 img: kousikImage,
                 name: "Koushik",
-                title: "Backend API Extraordinaire",
+                title: "Backend Engineer",
               },
             ].map((item, index) => (
               <motion.div
@@ -254,7 +254,7 @@ const About = () => {
               {
                 icon: <MapPin className="w-8 h-8 mb-4" />,
                 title: "Address",
-                content: "Ghaziabad, India",
+                content: "Vellore, Tamil Nadu",
               },
             ].map((item, index) => (
               <motion.div
