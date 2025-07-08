@@ -118,6 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **GitHub Repository:** [https://github.com/Aditya1or0/TripGo](https://github.com/Aditya1or0/TripGo)
-- **Email:** [adityapandit264@gmail.com](mailto:adityapandit264@gmail.com)
 
