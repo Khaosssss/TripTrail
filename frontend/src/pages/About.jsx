@@ -65,10 +65,10 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            TravelTide is a leading travel agency offering personalized booking
-            experiences to help travelers plan their perfect vacation. With a
-            wide range of tours, activities, and accommodations, we make your
-            travel dreams come true.
+            TravelTide is your trusted travel companion, dedicated to crafting
+            unforgettable journeys tailored just for you. From curated tours 
+            and thrilling activities to comfortable stays, we bring your dream 
+            vacations to life—effortlessly and seamlessly.
           </motion.p>
         </motion.div>
       </section>
@@ -94,10 +94,11 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            Our mission is to provide seamless, reliable, and hassle-free travel
-            booking services that empower our customers to explore the world
-            with ease. We strive to offer exceptional customer service and the
-            best travel deals.
+            Our Mission
+            At TravelTide, we're committed to making travel effortless and inspiring. 
+            Our goal is to provide smooth, reliable booking experiences backed by exceptional
+            customer support and unbeatable deals—so you can explore the world 
+            with confidence and ease.
           </motion.p>
         </motion.div>
       </section>
