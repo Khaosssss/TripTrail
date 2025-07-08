@@ -1,5 +1,3 @@
-Sure! Here's a rewritten version of your `README.md` for **TravelTide**, maintaining all the original information but with improved structure and fresh wording:
-
 ---
 
 # 🌊 TravelTide – A Seamless Travel Booking Experience
