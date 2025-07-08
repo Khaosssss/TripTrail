@@ -8,8 +8,15 @@ import bookingRouter from "./routes/bookingRoute.js";
 const PORT = process.env.PORT || 4000;
 const app = express();
 
+const allowedOrigins = ["https://travel-tide-six.vercel.app"];
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 app.use(express.json());
-app.use(cors());
 await connectDB();
 
 app.use("/api/user", userRouter);
