@@ -176,13 +176,23 @@ const About = () => {
             {[
               {
                 img: "https://img.freepik.com/free-photo/smiling-young-travel-agent-holding-travel-book-while-working-office_1150-18351.jpg?w=1380&t=st=1689822301~exp=1689822901~hmac=fd79c254f2a30fc1ad4fa28cc5e225e99f4232f9db184e00d5e20b27ff51d426",
-                name: "Jane Doe",
-                title: "Travel Consultant",
+                name: "Rahul Seju",
+                title: "Database Expert",
               },
               {
                 img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
-                name: "John Smith",
-                title: "Travel Specialist",
+                name: "Abhiram Jayasankar",
+                title: "Tours Frontend Developer",
+              },
+              {
+                img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
+                name: "Nayantara Nair",
+                title: "Layout Specialist",
+              },
+              {
+                img: "https://img.freepik.com/free-photo/cheerful-young-tourist-student-smiling-camera-outdoor_1150-18412.jpg?w=1380&t=st=1689822402~exp=1689823002~hmac=6177bbd4170abf3788d0bc6fc9ef62ff1b71c5791ec59001c0d50fa04a4d3e78",
+                name: "Koushik",
+                title: "Backend API extraordinaire",
               },
             ].map((item, index) => (
               <motion.div
